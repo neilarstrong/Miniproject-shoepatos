@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/shoes1.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shoepatos</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+  </head>
+ 
+  <body>
+
+   <!--Nav -->
+   <section class="heroSection">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="images/logo.png"
+            class="rounded-3"
+            height="100px"
+            width="100px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+              href="news.html"
+              class="nav-link active fw-bold text-light"><i class="fas fa-newspaper"></i></i>News Room</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link fw-bold text-light"
+                ><i class="fas fa-shopping-cart"></i>Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link fw-bold text-light"
+                ><i class="fas fa-address-card"></i>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link fw-bold text-light"
+                ><i class="fas fa-address-book"></i>Contact Us</a
+              >
+            </li>
+          </ul>
+          <div class="form-outline ms-auto mt-3 mt-lg-0">
+            <input type="search" id="form1" class="form-control ms-auto" placeholder="Search"/>
+          </div>
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-search"></i>
+          </button>
+
+          <button
+        class="btn mt-3 mt-lg-0"
+        type="submit"><i class="fas fa-light fa-heart"style='font-size:30px;color:white'></i>
+        <a href="#" class="text-decoration-none text-light"></a>
+        <button
+        class="btn mt-3 mt-lg-0"
+        type="submit"><i class="fas fa-bag-shopping"style='font-size:30px;color:white'></i>
+        <a href="cart.html" class="text-decoration-none text-light"></a>
+      </button>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <div class="breadcrumbs">
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+        
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="index.html"><i class="fas fa-house"></i>Home</a></li>
+          <li><i class="fas fa-shopping-cart"></i>Shopping Cart</li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- End of Nav --> 
+
+<br><br>
+
+    <section class="h-100 h-custom" >
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12">
+              <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                <div class="card-body p-0">
+                  <div class="row g-0">
+                    <div class="col-lg-8">
+                      <div class="p-5">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                          <h1 class="fw-bold mb-0 text-black">Shoe Patos</h1>
+                          <h6 class="mb-0 text-muted">3 items</h6>
+                        </div>
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-3">
+                            <img
+                              src="images/jordan/jor10.png"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-muted">Shoes</h6>
+                            <h6 class="text-black mb-0">Air Jordan 1 Retro High OG Stage Haze</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                              <i class="fas fa-minus"></i>
+                            </button>
+      
+                            <input id="form1" min="0" name="quantity" value="1" type="number"
+                              class="form-control form-control-lg" />
+      
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                              <i class="fas fa-plus"></i>
+                            </button>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0">₱ 14,345.43</h6>
+                          </div>
+                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                          </div>
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-3">
+                            <img
+                              src="images/jordan/jor23.png"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-muted">Shoes</h6>
+                            <h6 class="text-black mb-0">Air Jordan 1 Low GS Washed Denim</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                              <i class="fas fa-minus"></i>
+                            </button>
+      
+                            <input id="form1" min="0" name="quantity" value="1" type="number"
+                              class="form-control form-control-lg" />
+      
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                              <i class="fas fa-plus"></i>
+                            </button>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0">₱ 6,439.80</h6>
+                          </div>
+                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                          </div>
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-3">
+                            <img
+                              src="images/jorkids/kid18.png"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-muted">Shoes</h6>
+                            <h6 class="text-black mb-0">Jordan 1 Mid SE<br>Baby/Toddler Shoes</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                              <i class="fas fa-minus"></i>
+                            </button>
+      
+                            <input id="form1" min="0" name="quantity" value="1" type="number"
+                              class="form-control form-control-lg" />
+      
+                            <button class="btn btn-link px-2"
+                              onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                              <i class="fas fa-plus"></i>
+                            </button>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0">₱ 3,820.18</h6>
+                          </div>
+                          <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                            <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                          </div>
+                        </div>
+                        
+      
+                        <hr class="my-4">
+      
+                        <div class="pt-5">
+                          <h6 class="mb-0"><a href="product.html" class="text-body"><i
+                                class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 bg-grey">
+                      <div class="p-5">
+                        <h3 class="fw-bold mb-5 mt-2 pt-1"><img src="images/logo.png"  width="100px" height="100px"></h3>
+                        <hr class="my-4">
+      
+                        <div class="d-flex justify-content-between mb-4">
+                          <h5 class="text-uppercase">items 3</h5>
+                          <h5>₱ 24,605.41</h5>
+                        </div>
+      
+                        <h5 class="text-uppercase mb-3">Shipping</h5>
+      
+                        <div class="mb-4 pb-2">
+                          <select class="select">
+                            <option value="1">Standard-Delivery- ₱ 290.00</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+      
+                        <h5 class="text-uppercase mb-3">Promo Code</h5>
+      
+                        <div class="mb-5">
+                          <div class="form-outline">
+                            <input type="text" id="form3Examplea2" class="form-control form-control-lg" placeholder="Enter Code" />
+                            <label class="form-label" for="form3Examplea2"></label>
+                          </div>
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="d-flex justify-content-between mb-5">
+                          <h5 class="text-uppercase">Total price</h5>
+                          <h5>₱ 24,895.41</h5>
+                        </div>
+      
+                        <button type="button" class="btn btn-dark btn-block btn-lg"
+                          data-mdb-ripple-color="dark">Check Out</button>
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+<br><br><br><br>
+
+    <!-- Footer -->
+    <div class="footer container-fluid">
+        <div class="text text-center">
+            <p>
+              KodeGo | NeilArmStrng | Copyright © 2022
+            </p>
+        <h5 class="p-2">Follow Us:</h5>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+    <!-- End of Footer -->
+    
+</body>
+</html>

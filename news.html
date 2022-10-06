@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shoepatos</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/shoes1.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+  </head>
+  <body>
+
+    <!--Nav -->
+    <section class="heroSection">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img
+                src="images/logo.png"
+                class="rounded-3"
+                height="100px"
+                width="100px"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navMenu"
+              aria-controls="navMenu"
+              aria-expanded="false"
+              aria-label="Toggle Navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    href="news.html"
+                    class="nav-link active fw-bold text-light"><i class="fas fa-newspaper"></i></i>News Room</a>
+                </li>
+                <li class="nav-item">
+                  <a href="product.html" class="nav-link fw-bold text-light"
+                    ><i class="fas fa-shopping-cart"></i>Product</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link fw-bold text-light"
+                    ><i class="fas fa-address-card"></i>About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link fw-bold text-light"
+                    ><i class="fas fa-address-book"></i>Contact Us</a
+                  >
+                </li> 
+            </ul>
+  
+            <div class="form-outline ms-auto mt-3 mt-lg-0">
+              <input type="search" id="form1" class="form-control ms-auto" placeholder="Search"/>
+            </div>
+            <button type="button" class="btn btn-dark">
+              <i class="fas fa-search"></i>
+            </button>
+  
+                <button
+                class="btn mt-3 mt-lg-0"
+                type="submit"><i class='far fa-user-circle'style='font-size:30px;color:white'></i>
+                <a href="#" class="text-decoration-none text-light"></a>
+              </button>
+  
+            </div>
+          </div>
+        </nav>
+      </section>
+      
+      <div class="breadcrumbs">
+        <div class="page-header d-flex align-items-center">
+          <div class="container position-relative">
+            <div class="row d-flex justify-content-center">
+            
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="container">
+            <ul>
+              <li><a href="index.html"><i class="fas fa-house"></i>Home</a></li>
+              <li><i class="fas fa-newspaper"></i>News</li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- End of Nav --> 
+      <br>
+
+      <!--News-->
+      <div class="text text-center">
+        <h1 class="glow">Latest News!</h1>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="row">
+<!-- Card 1 -->
+           <div class="col-lg-3 col-md-6 my-2">
+          <div class="card rounded-0">
+            <img src="images/new1.jpg" class="card-img-top rounded-0" />
+            <div class="card-body px-0 py-0">
+              <h6 class="ps-3 pt-2">Release</h6>
+              <p class="ps-3">Nike is Working with Communities to Increase Climate Resilience.<br>September 19, 2022</p>
+              <div class="d-grid gap-2">
+                <button
+                  type="button"
+                  class="btn btn-dark btn-block text-light rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                >
+                  More Details
+                </button>
+              </div>
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">What to Know?</h4>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="text-start">
+                        <li>
+                          With climate change impacting athletes around the world,
+                          Nike is working on solutions that help protect the planet 
+                          and with it, the future of sport.
+                        </li>
+                        <li>
+                          Nike is launching its new Community Climate Resilience Program 
+                          with an inaugural $2M grant to Trust for Public Land.
+                        </li>
+                        <li>
+                          The program will fund projects advancing climate resilience and 
+                          access to public green spaces and sport in communities disproportionally 
+                          impacted by climate threats.
+                        </li>
+                        <li>
+                          In its initial round of funding, Nike’s work with Trust for 
+                          Public Land will focus on New York City, Los Angeles and Chicago.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-dark"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- End of Card 1 -->
+
+         <!-- Card 2 -->
+         <div class="col-lg-3 col-md-6 my-2">
+          <div class="card rounded-0">
+            <img src="images/news2.jpg" class="card-img-top rounded-0" />
+            <div class="card-body px-0 py-0">
+              <h6 class="ps-3 pt-2">Release</h6>
+              <p class="ps-3">Jess Sims Officially Becomes Part of the Jordan Brand Family. <br />September 08, 2022</p>
+              <div class="d-grid gap-2">
+                <button
+                  type="button"
+                  class="btn btn-dark btn-block text-light rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                >
+                  More Details
+                </button>
+              </div>
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">How do you get it?</h4>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="text-start">
+                        <li>
+                          With climate change impacting athletes around the world,
+                          Nike is working on solutions that help protect the planet 
+                          and with it, the future of sport.
+                        </li>
+                        <li>
+                          Nike is launching its new Community Climate Resilience Program 
+                          with an inaugural $2M grant to Trust for Public Land.
+                        </li>
+                        <li>
+                          The program will fund projects advancing climate resilience and 
+                          access to public green spaces and sport in communities disproportionally 
+                          impacted by climate threats.
+                        </li>
+                        <li>
+                          In its initial round of funding, Nike’s work with Trust for 
+                          Public Land will focus on New York City, Los Angeles and Chicago.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-dark"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card 2 -->
+
+          <!-- Card 3 -->
+          <div class="col-lg-3 col-md-6 my-2">
+            <div class="card rounded-0">
+              <img src="images/news3.jpg" class="card-img-top rounded-0" />
+              <div class="card-body px-0 py-0">
+                <h6 class="ps-3 pt-2">Release</h6>
+                <p class="ps-3">Jordan Brand Welcomes Howard University to the Family.<br />August 11, 2022</p>
+                <div class="d-grid gap-2">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-block text-light rounded-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                  >
+                    More Details
+                  </button>
+                </div>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">How do you get it?</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul class="text-start">
+                          <li>
+                            To get discounts, users have to book VRL Travels bus
+                            tickets for selected destinations by applying coupon
+                            code: EMTVRL
+                          </li>
+                          <li>
+                            This offer is valid for a limited period on bus
+                            booking for VRL Travels
+                          </li>
+                          <li>
+                            All our new and existing customers can avail this
+                            offer
+                          </li>
+                          <li>
+                            The offer is valid for bookings made on EaseMyTrip's
+                            website, Mobile site, Android & iOS App
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-dark"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card 3 -->
+
+           <!-- Card 4 -->
+        <div class="col-lg-3 col-md-6 my-2">
+          <div class="card rounded-0">
+            <img src="images/news4.jpg" class="card-img-top rounded-0" />
+            <div class="card-body px-0 py-0">
+              <h6 class="ps-3 pt-2">Release</h6>
+              <p class="ps-3"> Air Jordan XXXVII Is Built for the Game’s Transcendent Jumpers<br />July 06, 2022</p>
+              <div class="d-grid gap-2">
+                <button
+                  type="button"
+                  class="btn btn-dark btn-block text-light rounded-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal"
+                >
+                  More Details
+                </button>
+              </div>
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title">How do you get it?</h4>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="text-start">
+                        <li>
+                          To get discounts, users have to book VRL Travels bus
+                          tickets for selected destinations by applying coupon
+                          code: EMTVRL
+                        </li>
+                        <li>
+                          This offer is valid for a limited period on bus
+                          booking for VRL Travels
+                        </li>
+                        <li>
+                          All our new and existing customers can avail this
+                          offer
+                        </li>
+                        <li>
+                          The offer is valid for bookings made on EaseMyTrip's
+                          website, Mobile site, Android & iOS App
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-dark"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card 4 -->
+
+        <!-- Card 5 -->
+        <div class="col-lg-3 col-md-6 my-2">
+            <div class="card rounded-0">
+              <img src="images/news5.jpg" class="card-img-top rounded-0" />
+              <div class="card-body px-0 py-0">
+                <h6 class="ps-3 pt-2">Release</h6>
+                <p class="ps-3">Jordan Brand Wings Scholars Program Celebrates Its Incoming Class of 2026 <br />June 15, 2022</p>
+                <div class="d-grid gap-2">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-block text-light rounded-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                  >
+                    More Details
+                  </button>
+                </div>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">How do you get it?</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul class="text-start">
+                          <li>
+                            To get discounts, users have to book VRL Travels bus
+                            tickets for selected destinations by applying coupon
+                            code: EMTVRL
+                          </li>
+                          <li>
+                            This offer is valid for a limited period on bus
+                            booking for VRL Travels
+                          </li>
+                          <li>
+                            All our new and existing customers can avail this
+                            offer
+                          </li>
+                          <li>
+                            The offer is valid for bookings made on EaseMyTrip's
+                            website, Mobile site, Android & iOS App
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-dark"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End of Card 5-->
+
+          <!-- Card 6 -->
+        <div class="col-lg-3 col-md-6 my-2">
+            <div class="card rounded-0">
+              <img src="images/news6.jpg" class="card-img-top rounded-0" />
+              <div class="card-body px-0 py-0">
+                <h6 class="ps-3 pt-2">Release</h6>
+                <p class="ps-3">Nike Acquires RTFKT. <br><br>December 13, 2021</p>
+                <div class="d-grid gap-2">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-block text-light rounded-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                  >
+                    More Details
+                  </button>
+                </div>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">How do you get it?</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul class="text-start">
+                          <li>
+                            To get discounts, users have to book VRL Travels bus
+                            tickets for selected destinations by applying coupon
+                            code: EMTVRL
+                          </li>
+                          <li>
+                            This offer is valid for a limited period on bus
+                            booking for VRL Travels
+                          </li>
+                          <li>
+                            All our new and existing customers can avail this
+                            offer
+                          </li>
+                          <li>
+                            The offer is valid for bookings made on EaseMyTrip's
+                            website, Mobile site, Android & iOS App
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-dark"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End of Card 6-->
+
+          <!-- Card 7 -->
+        <div class="col-lg-3 col-md-6 my-2">
+            <div class="card rounded-0">
+              <img src="images/news7.jpg" class="card-img-top rounded-0" />
+              <div class="card-body px-0 py-0">
+                <h6 class="ps-3 pt-2">Release</h6>
+                <p class="ps-3">Jordan Brand transformed a Berlin Basketball Court for Young Girls. <br />July 26, 2022</p>
+                <div class="d-grid gap-2">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-block text-light rounded-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                  >
+                    More Details
+                  </button>
+                </div>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">How do you get it?</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul class="text-start">
+                          <li>
+                            To get discounts, users have to book VRL Travels bus
+                            tickets for selected destinations by applying coupon
+                            code: EMTVRL
+                          </li>
+                          <li>
+                            This offer is valid for a limited period on bus
+                            booking for VRL Travels
+                          </li>
+                          <li>
+                            All our new and existing customers can avail this
+                            offer
+                          </li>
+                          <li>
+                            The offer is valid for bookings made on EaseMyTrip's
+                            website, Mobile site, Android & iOS App
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-dark"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!--End of Card 7-->
+
+           <!-- Card 8 -->
+        <div class="col-lg-3 col-md-6 my-2">
+            <div class="card rounded-0">
+              <img src="images/news8.jpg" class="card-img-top rounded-0" />
+              <div class="card-body px-0 py-0">
+                <h6 class="ps-3 pt-2">Release</h6>
+                <p class="ps-3">The Jordan Zion 2 Is Designed for an Evolved Zion Williamson<br />June 21, 2022</p>
+                <div class="d-grid gap-2">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-block text-light rounded-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                  >
+                    More Details
+                  </button>
+                </div>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">How do you get it?</h4>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul class="text-start">
+                          <li>
+                            To get discounts, users have to book VRL Travels bus
+                            tickets for selected destinations by applying coupon
+                            code: EMTVRL
+                          </li>
+                          <li>
+                            This offer is valid for a limited period on bus
+                            booking for VRL Travels
+                          </li>
+                          <li>
+                            All our new and existing customers can avail this
+                            offer
+                          </li>
+                          <li>
+                            The offer is valid for bookings made on EaseMyTrip's
+                            website, Mobile site, Android & iOS App
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-dark"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End of Card 8-->
+    </div>
+</div>
+<!--End of News-->
+<br>
+
+<!-- Footer -->
+<div class="footer container-fluid">
+    <div class="text text-center">
+        <p>
+          KodeGo | NeilArmStrng | Copyright © 2022
+        </p>
+    <h5 class="p-2">Follow Us:</h5>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </div>
+</div>
+<!-- End of Footer -->
+
+</body>
+</html>

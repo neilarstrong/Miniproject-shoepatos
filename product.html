@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shoepatos</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/shoes1.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("snackbar");
+          x.className = "show";
+          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    
+  <!--Nav -->
+  <section class="heroSection">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="images/logo.png"
+            class="rounded-3"
+            height="100px"
+            width="100px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+              href="news.html"
+              class="nav-link active fw-bold text-light"><i class="fas fa-newspaper"></i></i>News Room</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link fw-bold text-light"
+                ><i class="fas fa-shopping-cart"></i>Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link fw-bold text-light"
+                ><i class="fas fa-address-card"></i>About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link fw-bold text-light"
+                ><i class="fas fa-address-book"></i>Contact Us</a
+              >
+            </li>
+          </ul>
+
+          <div class="form-outline ms-auto mt-3 mt-lg-0">
+            <input type="search" id="form1" class="form-control ms-auto" placeholder="Search"/>
+          </div>
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-search"></i>
+          </button>
+
+          <button
+          class="btn mt-3 mt-lg-0"
+          type="submit"><i class="fas fa-light fa-heart"style='font-size:30px;color:white'></i>
+          <a href="#" class="text-decoration-none text-light"></a>
+          <button class="btn" type="submit">
+            <a href="cart.html" class="text-decoration-none text-light"><i class='fas fa-bag-shopping'style='font-size:30px;color:white'></i></a>
+          </button>
+        </button>
+        
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <div class="breadcrumbs">
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+        
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="container">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-house"></i>Home</a></li>
+
+          <li class="dropdown">
+            <a class="dropbtn"><i class="fas fa-shopping-cart"></i>Product </a>
+            <div class="dropdown-content">
+              <a href="product.html">Shop For Men</a>
+              <a href="product2.html">Shop For Women</a>
+              <a href="kidsection.html">Shop For Kids</a>
+            </div>
+         </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- End of Nav --> 
+   <br>
+
+  <div class="top text-left">
+    <h1>Nike Air Jordan 1 Footwear (Mens)</h1>
+    <span>
+    </span>
+  </div>
+  <br><br><br>
+
+<!--card title -->
+  <div class="container">
+     <!--1st row -->
+    <div class="row">
+        <div class="col-lg-3 col-md-3 my-2">  
+            <div class="Card w-auto p-2">
+                <img src="images/jordan/jor1.png" class="card1 card-img-top"> 
+                <h4 class="card-title text-center"><br>Air Jordan 1 Mid GS Floral Embroidery Black Orange</h4>
+                    <div class="card-body">
+                        <div class="card-text text-center"><br>
+                            <p>₱ 5,217.58</p>
+                            <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button></i>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                         </div>
+                        </div>                         
+        </div> 
+    </div> 
+    
+    <div class="col-lg-3 col-md-3 my-2"> 
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor2.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Low Triple White 2022</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 7,171.81</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                 </div>
+                </div>
+        </div> 
+    </div>
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor3.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Low Lemon</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br><br>
+                    <p>₱ 8,101.94</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                 </div>
+                </div>
+    </div> 
+</div> 
+
+<div class="col-lg-3 col-md-3 my-2">  
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor4.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Low Inside Out Black Grey</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 9,456.50</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+        </div> 
+        </div>    
+    </div>
+ <!--End of 1st row -->
+<br><br>
+
+<!--2st row -->
+  <div class="row">
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor5.png" class="card1 card-img-top"> 
+            <h4 class="card-title text-center"><br>Air Jordan 1 Low GS New Emerald</h4>
+                <div class="card-body">
+                    <div class="card-text text-center"><br>
+                        <p>₱ 6,259.89</p>
+                        <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                     </div>
+                    </div>                         
+        </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor6.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Mid Seven-Colour</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 8,147.64</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+        </div> 
+    </div>
+
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor8.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Low GS SE True Blue</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 4,564.45</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+    </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+    <div class="Card w-auto p-2">
+        <img src="images/jordan/jor9.png" class="card1 card-img-top">
+        <h4 class="card-title text-center"><br>Air Jordan 1 High OG Denim</h4>
+        <div class="card-body">
+            <div class="card-text text-center"><br>
+                <p>₱ 10,755.81</p>
+                <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+            </div>
+            </div>
+        </div> 
+        </div>    
+
+    </div>
+<!--End of 2st row -->
+<br><br>
+
+<!--3rd row -->
+<div class="row">
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor10.png" class="card1 card-img-top"> 
+            <h4 class="card-title text-center"><br>Air Jordan 1 Retro High OG Stage Haze</h4>
+                <div class="card-body">
+                    <div class="card-text text-center"><br>
+                        <p>₱ 14,345.43</p>
+                        <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                     </div>
+                    </div>                         
+        </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor11.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 High OG Yellow Toe Taxi</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 11,085.10</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+        </div> 
+    </div>
+
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor12.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Retro High OG Newstalgia</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 9,974.80</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+    </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2">
+    <div class="Card w-auto p-2">
+        <img src="images/jordan/jor13.png" class="card1 card-img-top">
+        <h4 class="card-title text-center"><br>Jordan 1 Retro High OG Court Purple</h4>
+        <div class="card-body">
+            <div class="card-text text-center"><br>
+                <p>₱ 9,892.32</p>
+                <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+            </div>
+            </div>
+        </div> 
+        </div>    
+
+    </div>
+<!--End of 3rd row -->
+<br><br>
+
+    <!--4th row -->
+<div class="row">
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor14.png" class="card1 card-img-top"> 
+            <h4 class="card-title text-center"><br>Air Jordan 1 Low SE GS Tie Dye</h4>
+                <div class="card-body">
+                    <div class="card-text text-center"><br>
+                        <p>₱ 6,488.04</p>
+                        <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                     </div>
+                    </div>                         
+        </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor15.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Low GS Knitted White Multi</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 5,909.66</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+        </div> 
+    </div>
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor16.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Jordan 1 Low SE White Sesame</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 9,128.93</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+    </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+    <div class="Card w-auto p-2">
+        <img src="images/jordan/jor17.png" class="card1 card-img-top">
+        <h4 class="card-title text-center"><br>Air Jordan 1 Low GS Hologram</h4>
+        <div class="card-body">
+            <div class="card-text text-center"><br>
+                <p>₱ 5,213.27</p>
+                <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+            </div>
+            </div>
+        </div> 
+        </div>    
+
+    </div>
+<!--End of 4th row -->
+<br><br>
+
+<!--5th row -->
+<div class="row">
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor18.png" class="card1 card-img-top"> 
+            <h4 class="card-title text-center"><br>Air Jordan 1 Mid Lakers</h4>
+                <div class="card-body">
+                    <div class="card-text text-center"><br><br>
+                        <p>₱ 13,757.94</p>
+                        <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                     </div>
+                    </div>                         
+        </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2">
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor19.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Mid Triple Black</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 7,498.64</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                    <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+        </div> 
+    </div>
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+        <div class="Card w-auto p-2">
+            <img src="images/jordan/jor20.png" class="card1 card-img-top">
+            <h4 class="card-title text-center"><br>Air Jordan 1 Mid Tartan Swoosh</h4>
+            <div class="card-body">
+                <div class="card-text text-center"><br>
+                    <p>₱ 7,827.65</p>
+                    <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+                </div>
+                </div>
+    </div> 
+    </div> 
+
+    <div class="col-lg-3 col-md-3 my-2"> 
+    <div class="Card w-auto p-2">
+        <img src="images/jordan/jor21.png" class="card1 card-img-top">
+        <h4 class="card-title text-center"><br>Air Jordan 1 Mid GS Rookie Season</h4>
+        <div class="card-body">
+            <div class="card-text text-center"><br>
+                <p>₱ 4,566.13</p>
+                <button onclick="myFunction()" class="card-link btn btn-dark">Add to Cart</button>
+                            <div id="snackbar">"Item Add to Cart"</div>
+            </div>
+            </div>
+        </div> 
+        </div>    
+
+    </div>
+<!--End of 5th row -->
+<br>
+
+</div>
+<!--End of card title -->
+
+    <!-- Page navigation--> 
+    <br><br>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link disabled" href="product.html">Previous</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link active" href="product.html">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+</div>
+</div>
+<!-- End of Page navigation--> 
+<br>
+
+  <!-- Footer -->
+  <div class="footer container-fluid">
+    <div class="text text-center">
+        <p>
+          KodeGo | NeilArmStrng | Copyright © 2022
+        </p>
+    <h5 class="p-2">Follow Us:</h5>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-instagram"></a>
+  </div>
+</div>
+<!-- End of Footer -->
+
+  </body>
+</html>

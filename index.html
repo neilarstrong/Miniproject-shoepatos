@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shoepatos</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/shoes3.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+      integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+  </head>
+  <body>
+
+    <!--Nav -->
+    <section class="heroSection">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png"
+              class="rounded-3"
+              height="100px"
+              width="100px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+            aria-controls="navMenu"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  href="news.html"
+                  class="nav-link active fw-bold text-light"><i class="fas fa-newspaper"></i></i>News Room</a>
+              </li>
+              <li class="nav-item">
+                <a href="product.html" class="nav-link fw-bold text-light"
+                  ><i class="fas fa-shopping-cart"></i>Product</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link fw-bold text-light"
+                  ><i class="fas fa-address-card"></i>About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link fw-bold text-light"
+                  ><i class="fas fa-address-book"></i>Contact Us</a
+                >
+              </li> 
+          </ul>
+
+          <div class="form-outline ms-auto mt-3 mt-lg-0">
+            <input type="search" id="form1" class="form-control ms-auto" placeholder="Search"/>
+          </div>
+
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-search"></i>
+            <button class="btn" type="submit">
+              <a href="login.html" class="text-decoration-none text-light"><i class='far fa-user-circle'style='font-size:30px;color:white'></i></a>
+            </button>
+
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- End of Nav --> 
+
+    <br><br>
+
+    <div class="container max-height d-flex align-items-center">
+      <div id="carouselKo" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
+          <!--carousel indicators-->
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselKo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselKo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselKo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselKo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+           <!--End of carousel indicators-->
+          <div class="carousel-inner rounded-5 shadow-4-strong">
+              <div class="carousel-item active">
+                  <img src="images/air3.jpg" class="d-block w-100">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                      <p></p>
+                  </div>
+              </div>
+              <div class="carousel-item ">
+                  <img src="images/air2.jpg" class="d-block w-100">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p></p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="images/air1.jpg" class="d-block w-100">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p></p>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/air4.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+            </div>
+            </div>
+          </div>
+      <!--carousel butoon-->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselKo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselKo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+              <!-- End carousel butoon-->
+              </div>
+          </div>
+          <!--End of carousel-->
+          <br><br>
+
+          <div id="center">
+            <img src="images/airjordan2.png" width="100%" height="">
+          </div>
+          <br><br>
+<!--Shop-->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 my-2">
+      <div class="card rounded-0">
+        <img id="myimg" src="images/jordan1.jpg" class="card-img-top rounded-0" />
+        <button class="btnn btn-light" type="button"><a href="product.html" class="text-decoration-none text-dark"><b>Shop For Men</b></a></button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 my-2">
+      <div class="card rounded-0">
+        <img id="myimg" src="images/jordan2.webp" class="card-img-top rounded-0" />
+        <button class="btnn btn-light" type="button"><a href="product2.html" class="text-decoration-none text-dark"><b>Shop For Women</b></a></button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 my-2">
+      <div class="card rounded-0">
+        <img id="myimg" src="images/jordan3.webp" class="card-img-top rounded-0" />
+        <button class="btnn btn-light" type="button"><a href="kidsection.html" class="text-decoration-none text-dark"><b>Shop For Kids</b></a></button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--End of Shop-->
+<br>
+          <!--text-->
+          <div class="container-fluid my-5 border py-5">
+            <div class="row d-flex flex-column flex-md-row align-items-center">
+                <div class="col-6">
+                    <img id="myimg" src="images/text1.webp" class="d-block w-100 " alt="">
+                </div>
+                <div class="col-6"><br>
+                    <h1 class="display-2">Could the Travis Scott x Air Jordan 1 Low OG "Olive" Be the Best Colourway Yet?</h1>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Travis Scott’s work with Jordan Brand is always eagerly-anticipated by footwear fans across the globe, and now we’ve got a first look at his latest collaborative sneaker. Showcasing classic colour-blocking, the sneaker offers up hits of white, black and olive green for a neat combination that many are hailing as the best Travis x AJ1 colourway yet.</p>
+                    <a  class="card-link btn btn-outline-dark" href="about.html">Read More</a>
+                </div>
+                <br>
+            </div>
+            <div class="row d-flex flex-column flex-md-row-reverse align-items-center">
+              <div class="col-6">
+                <img id="myimg" src="images/text2.webp" class="d-block w-100" alt="">
+            </div>
+                <div class="col-6"><br>  
+                    <h1 class="display-2">Air Jordan 1 High OG "Lost & Found" (AKA "Chicago Reimagined")</h1>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <p>Arguably the most anticipated release this year, we’ve now got an on-foot look at the upcoming Air Jordan 1 High OG “Chicago Reimagined” ahead of a November release date. The sneakers offer up the highly-sought-after OG colourway of the AJ1 that consists of red, white and black colour blocking.</p>
+                    <a  class="card-link btn btn-outline-dark" href="about.html">Read More</a>
+                </div>
+                <br>
+            </div>
+            <div class="row d-flex flex-column flex-md-row align-items-center">
+                <div class="col-6">
+                    <img id="myimg" src="images/text3.webp" class="d-block w-100" alt="">
+                </div>
+                <div class="col-6"><br>
+                    <h1 class="display-2">We Can't Believe These High-Heat Kicks Are Still in Stock at size? Right Now!</h1>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p>Whether you’re big on your gorpcore staples from ACG and Salomon, have been on the hunt for some Air Jordan 1 or Air Max heat, or you’re looking to jump on the New Balance trend, we’ve rounded up some of the best kicks available at the retailer right this second. Hit the links to shop and be sure to tag us in your purchases – we can’t wait to see your LPU!</p>
+                    <a  class="card-link btn btn-outline-dark" href="about.html">Read More</a>
+                </div>
+            </div>
+          </div>
+<!--End of text-->  
+<br>
+
+          <!-- Footer -->
+          <div class="footer container-fluid">
+            <div class="text text-center">
+                <p>
+                  KodeGo | NeilArmStrng | Copyright © 2022
+                </p>
+            <h5 class="p-2">Follow Us:</h5>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+        <!-- End of Footer -->
+        
+  </body>
+</html>
